@@ -1,4 +1,4 @@
-# Raspberry Temperature Sensor
+# Raspberry Temperature Sensor and MQTT broker
 
 A Raspberry Pi-based temperature and humidity monitoring system using the AHT10 sensor. This project reads sensor data and publishes it to an MQTT broker for further processing or visualization.
 
