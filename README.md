@@ -37,18 +37,18 @@ A Raspberry Pi-based temperature and humidity monitoring system using the AHT10 
    sudo modprobe aht10
    ```
 
-4. Update the configuration in the Bash script (`scriptshell.txt`) and Python script (`aht10.py`) with your MQTT broker's IP address and other settings.
+4. Update the configuration in the Bash script (`scriptshell.sh`) and Python script (`aht10.py`) with your MQTT broker's IP address and other settings.
 
 ## Usage
 
 1. Make the Bash script executable:
    ```bash
-   chmod +x scriptshell.txt
+   chmod +x scriptshell.sh
    ```
 
 2. Run the Bash script to initialize the sensor and start the Python script:
    ```bash
-   sudo ./scriptshell.txt
+   sudo ./scriptshell.sh
    ```
 
 3. The Python script will continuously read temperature and humidity data and publish it to the MQTT broker under the following topics:
